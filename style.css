@@ -1,0 +1,41 @@
+body {
+    background-image: url('img.png'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(220, 230, 240, 0.7); 
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#city {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#weatherResult {
+    margin-top: 20px;
+}
